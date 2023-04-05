@@ -1,4 +1,10 @@
   
+_G.CheckGame = "2753915549"
+else
+  game.Players.LocalPlayer:Kick("Game Not Support")
+
+
+
 repeat wait() until game.Players.LocalPlayer
 
 if not game:IsLoaded() then
